@@ -9,7 +9,7 @@ jobs:
   build:
     env:
       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      WS_APIKEY: ${{secrets.APIKEY}}
+      WS_APIKEY:f391323085674b11bbd10d6a1f446010d3fa77e0476a4c28ab3e5b036a001c11
       WS_USERKEY: ${{secrets.USERKEY}}
       WS_WSS_URL: https://saas-eu.whitesourcesoftware.com/agent
       WS_PRODUCTNAME: GitHub-Java Test
