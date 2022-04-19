@@ -13,6 +13,7 @@ jobs:
       SASTCLI_TOKEN: ${{secrets.SASTCLI_TOKEN}}
       SAST_SERVER: https://sast-demo.whitesourcesoftware.com
       SASTCLI_TARGET_APPLICATION: ${{github.event.repository.name}}
+      SASTCLI_THRESHOLD_HIGH: 5
 
     steps:
       - name: Checkout repository
