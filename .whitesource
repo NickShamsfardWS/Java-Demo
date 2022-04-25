@@ -6,7 +6,7 @@
     "baseBranches": [],
     "enableIaC": "true",
     "enableLicenseViolations": "true",
-    "enableSAST": true
+    "enableSAST": "true"
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
