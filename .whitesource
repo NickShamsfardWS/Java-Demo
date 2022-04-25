@@ -5,7 +5,7 @@
     "projectToken": "",
     "baseBranches": [],
     "enableIaC": "true",
-    "enableLicenseViolations": "true"
+    "enableLicenseViolations": "true",
     "enableSAST": "true"
   },
   "checkRunSettings": {
