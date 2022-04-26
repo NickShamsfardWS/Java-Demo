@@ -12,6 +12,7 @@ jobs:
       SAST_ORGANIZATION: ${{secrets.SAST_ORGANIZATION}}
       SASTCLI_TOKEN: ${{secrets.SASTCLI_TOKEN}}
       SAST_SERVER: https://sast-demo.whitesourcesoftware.com
+      SASTCLI_SUBMIT_FILES: true
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
