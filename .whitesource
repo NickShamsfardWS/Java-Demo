@@ -4,6 +4,7 @@
     "configExternalURL": "",
     "projectToken": "",
     "baseBranches": [],
+    "enableSAST": "true",
     "enableIaC": "true",
     "enableLicenseViolations": "true"
   },
